@@ -26,3 +26,11 @@ padding-block-start:60px;
 padding-block-end:20px;
 
 `;
+
+export const CalculatorRowButtonsContainer = styledComponents.div`
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-block:10px;
+`;

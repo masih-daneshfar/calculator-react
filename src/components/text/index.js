@@ -7,6 +7,8 @@ font-family:sans-serif;
 text-align:right;
 font-size:1.8rem;
 margin-block:10px;
+text-overflow:ellipsis;
+overflow:hidden;
 `;
 export const CalculationText = styledComponents.h5`
  color:#212121;
