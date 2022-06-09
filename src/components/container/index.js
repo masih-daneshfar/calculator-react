@@ -16,8 +16,13 @@ export const CalculatorContainer = styledComponents.div`
 width:250px;
 padding-block:20px;
 padding-inline:15px;
-background-color:rgba(255,255,255,0.45);
-  backdrop-filter: blur(5px);
-  border-radius:20px;
+background-color:rgba(255,255,255,0.6);
+backdrop-filter: blur(5px);
+border-radius:20px;
+`;
+export const CalculatorDisplayContainer = styledComponents.div`
+width:100%;
+padding-block-start:60px;
+padding-block-end:20px;
 
 `;
